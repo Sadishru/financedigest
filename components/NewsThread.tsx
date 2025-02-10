@@ -14,7 +14,21 @@ import {
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
 
-const NewsThread = ({ thumbnail, source, date, headline, url }) => {
+interface NewsThreadProps {
+  thumbnail: string;
+  source: string;
+  date: number;
+  headline: string;
+  url: string;
+}
+
+const NewsThread: React.FC<NewsThreadProps> = ({
+  thumbnail,
+  source,
+  date,
+  headline,
+  url,
+}) => {
   // Font guy, Roboto
   let [fontsLoaded] = useFonts({
     Roboto: require("@expo-google-fonts/roboto/Roboto_400Regular.ttf"),
