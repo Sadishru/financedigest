@@ -1,31 +1,36 @@
 # Ayubowan 👋
-# this repo doesn't contain a build, use Expo Go
 
-I'm Sadish. This simple project demonstrates a finance digest. For the user CRUD, there was only the first/last names so I used a component with a modal instead of a page in app router. 
-I've used react-native-responsive-screen library to maintain responsiveness within different devices. Which is easier to use rather than Dimensions API.
+## 🚀 About This Project
 
-I didn't use any external assets or animations (not even lottie), only the given figma design is implemented here. I've tested on both ios and android devices to ensure code quality. 
+I'm **Sadish**. This project showcases a **Finance Digest** app built with React Native.
+- User CRUD functionality is implemented with a **modal component** instead of a page in the App Router.
+- **react-native-responsive-screen** is used for better responsiveness across devices, making it simpler than the Dimensions API.
+- No external assets or animations (not even Lottie) were used—everything is based on the provided **Figma design**.
+- Fully tested on **iOS and Android** to ensure code quality.
 
+🎉 **Kudos to you for checking this out!** Thank you! 🙌
 
+---
 
-Kudos to whoever you are!! Thank you so much.
+## 🌍 Other Work
 
-Other Work: 
-http://greenvoyagestravels.com/
-https://tcnet.globemw.net/
-https://www.figma.com/design/IuqvRr7GHKExuaAagFgjE6/Serendib-Hotels-v3---UX%2FUI-Design?node-id=0-1&t=DcPAQABFqujXZn3I-1
+[![🌱 Green Voyages Travels](https://img.shields.io/badge/🌱-Green_Voyages_Travels-brightgreen?style=for-the-badge)](http://greenvoyagestravels.com/)
+[![🌐 TC Net](https://img.shields.io/badge/🌐-TC_Net-blue?style=for-the-badge)](https://tcnet.globemw.net/)
+[![🏨 Serendib Hotels UX/UI](https://img.shields.io/badge/🏨-Serendib_Hotels_Design-purple?style=for-the-badge)](https://www.figma.com/design/IuqvRr7GHKExuaAagFgjE6/Serendib-Hotels-v3---UX%2FUI-Design?node-id=0-1&t=DcPAQABFqujXZn3I-1)
 
+---
 
-## Get started
+## 🛠 Get Started
 
-1. Install dependencies
+### 1️⃣ Install Dependencies
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-2. Start the app
+### 2️⃣ Start the App
 
-   ```bash
-    npx expo start
-   ```
+```bash
+npx expo start
+```
+
