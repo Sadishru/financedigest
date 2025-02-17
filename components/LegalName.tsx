@@ -146,7 +146,7 @@ const LegalName = () => {
               style={styles.notif}
               resizeMode="contain"
             />
-            <Text style={styles.h2}>Get the most out of Blott ✅</Text>
+            <Text style={styles.h2main}>Get the most out of Blott ✅</Text>
             <Text style={styles.p}>
               Allow notifications to stay in the loop with your payments,
               requests and groups.
@@ -192,6 +192,11 @@ const styles = StyleSheet.create({
   h2: {
     fontSize: 24,
     fontFamily: "RobotoBold",
+  },
+  h2main: {
+    fontSize: 23,
+    fontFamily: "RobotoBold",
+    textAlign: "center",
   },
   p: {
     fontSize: 16,
@@ -244,7 +249,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: wp("30%"),
     borderRadius: 20,
     position: "absolute",
-    bottom: hp("7%"),
+    bottom: hp("10%"),
   },
   btnP: {
     fontSize: 16,
