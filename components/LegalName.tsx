@@ -97,7 +97,7 @@ const LegalName = () => {
   }, []);
   return (
     <SafeAreaView>
-      <StatusBar style="light" backgroundColor="#F9FAFB" translucent={false} />
+      <StatusBar style="dark" backgroundColor="#F9FAFB" translucent={false} />
       <View style={styles.container}>
         <Text style={styles.h1}>Your legal name</Text>
         <Text style={styles.p3}>
